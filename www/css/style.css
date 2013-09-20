@@ -12,9 +12,11 @@ body {
 
 
 @font-face {
-    font-family: 'arabicfont';
-    src: url('PDMS_ISLAMICFONT.eot');
-    src: local('☺'), url('PDMS_ISLAMICFONT.woff') format('woff'), url('PDMS_ISLAMICFONT.ttf') format('truetype'), url('PDMS_ISLAMICFONT.svg') format('svg');
+    font-family: 'arabicFont';
+    src: url('PDMS_ISLAMICFONT.eot?') format('eot'), 
+         url('PDMS_ISLAMICFONT.woff') format('woff'), 
+         url('PDMS_ISLAMICFONT.ttf') format('truetype'), 
+         url('PDMS_ISLAMICFONT.svg#webfontwTBKaDwa') format('svg');
     font-weight: normal;
     font-style: normal;
 }
