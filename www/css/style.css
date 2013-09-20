@@ -6,14 +6,17 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 13px;
     line-height: 1.5;
-    background: #222;
+    background: #000;
     color: #fff;
 }
 
-@font-face
-{
-font-family: 'arabicfont';
-src: url('PDMS_ISLAMICFONT.ttf');
+
+@font-face {
+    font-family: 'arabicfont';
+    src: url('PDMS_ISLAMICFONT.eot');
+    src: local('☺'), url('PDMS_ISLAMICFONT.woff') format('woff'), url('PDMS_ISLAMICFONT.ttf') format('truetype'), url('PDMS_ISLAMICFONT.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .verse {font-family: 'arabicfont'; font-size:2.5em; text-align: center; direction: rtl; max-width: 720px; margin:0 auto;}
@@ -62,6 +65,7 @@ src: url('PDMS_ISLAMICFONT.ttf');
 }
 .page-inner {
     padding: 15px 20px;
+    margin-top: 50px;
 }
 input[type="text"], textarea {
     -webkit-box-sizing: border-box;
@@ -158,4 +162,5 @@ input[type="submit"]:active {
     border-radius: 10px;
 }
 
-header {background:#333; font-size:1.5em; text-align: center; padding:10px;}
+header {background:#333; font-size:1.5em; text-align: center; height: 50px; line-height: 50px; position: fixed; display: block; width: 100%; top: 0; z-index: 10;}
+.topmost {}
